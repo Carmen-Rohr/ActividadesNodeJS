@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>FORMULARIO DE CONTACTO</title>
+</head>
+<body>
+    <header>
+        <h3 align="center">FORMULARIO DE CONTACTO</h3>    
+    </header>
+    <main>
+        <form>        
+            <table align="center">
+                <tr>
+                    <td align="right"> <label for="date" class="style-label">Fecha de nacimiento</label></td>
+                    <td>  <input type="date" name="date" class="input-style"></td>
+                </tr>
+                <tr>
+                    <td align="right"><label for="checkbox" class="style-label">Tiene vacuna?</label></td>
+                    <td><input type="checkbox" name="checkbox" class="input-style"></td>    
+                </tr>            
+                <tr>
+                    <td> <input type="password" name="password" placeholder="Ingrese su contraseña" class="input-style"></td>
+                    <td><input type="number" name="number" id="numerID" placeholder="Ingrese un número" class="input-style"></td> 
+                </tr>
+               
+                <tr>
+                    <td class="style-label">Chat: </td>
+                </tr>
+                <tr>
+                    <td><textarea name="chat" rows="10" cols="40" class="input-style" placeholder="Escriba su mensaje"></textarea></td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="ENVIAR" class="style-button"></td>
+                    <td><a href="./index.html" class="style-button">VOLVER</a></td>
+                </tr>
+            </table>        
+            <!--probar distribuir los input y lablel dentro de una tabla-->
+        </form>
+        <br>
+    </main>  
+    
+</body>
+</html>
