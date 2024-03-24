@@ -1,0 +1,101 @@
+
+body {
+    background-color:#FEF4EF;   
+}
+
+#contenedorPadre{
+    display: flex;
+    justify-content: center;   
+}
+
+
+form{     
+    width:140%;    
+}
+
+fieldset {
+    background-color:beige;
+    font-size: 1vw;
+    color:#b61409;
+    font-weight: 800;
+    width: 70%;
+    border-radius: 10px;
+    border: 2px solid #b61409;
+}
+
+legend {
+    font-size: 1.5vw;;
+}
+
+#contenedorHijo > p{
+    background-color: #c7b9c5;   
+    color:#b61409; 
+}
+
+h2 {   
+    font-family: "Sofia", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size:3vw;   
+    color:#b61409;
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+}
+
+.opciones {
+    background-color:#c7b9c5;
+    color:#b61409;
+    font-weight: 800;
+}
+
+#conocimientos {
+    width:75%; 
+    font-size: 0.9vw;
+}
+
+label {   
+    margin-left: 4vw;
+}
+
+select, textarea {
+    background-color:beige;
+    font-size: 1vw;
+    color:#b61409;    
+    margin-bottom: 1vw;
+    border-radius: 4px;
+    border: 1px solid #b61409;
+}
+
+.textoLabel {
+   color: #b61409;
+   font-weight: 800;
+}
+
+.boton{
+    border-radius: 13px;
+    border-color: rgb(255, 201, 61);
+    background-color: rgb(255, 201, 61);
+    height: 3vw;
+    width: 15vw;  
+    font-size: 1.2vw;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    margin-right: 10vw;
+}
+
+.boton:hover{
+    border-radius: 13px;
+    border-color: rgb(255, 201, 61);
+    background-color: rgb(0, 0, 0);;
+    height: 3vw;
+    width: 15vw;  
+    font-size: 1.2vw;
+    color: rgb(255, 201, 61);
+    font-weight: bold;
+}
+
+#botones{
+    display: flex;
+    justify-content: center;
+}

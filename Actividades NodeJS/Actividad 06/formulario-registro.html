@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--<link rel="stylesheet" href="./css/style.css" /> -->
+    <link rel="stylesheet" href="./css/style2.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sofia&display=swap"
+      rel="stylesheet"
+    />
+    <title>Formularios</title>
+  </head>
+
+  <body>
+    <div id="contenedorPadre">
+      <div id="contenedorHijo">
+        <h2>Formulario de registro</h2>
+        <form action="show-data.html" target="_blank">
+          <fieldset>
+            <legend>Datos personales</legend>
+            <label for="firstname">Nombre: </label>
+            <input
+              size="30"
+              type="text"
+              name="firstname"
+              placeholder="Ingrese su nombre aqui..."
+            />
+            <label for="lastname">Apellido:</label>
+            <input
+              size="30"
+              type="text"
+              name="lastname"
+              placeholder="Ingrese su apellido aqui..."
+            />
+            <br /><br />
+            <label for="street">Direccion:</label>
+            <input
+              type="text"
+              name="address"
+              placeholder="Ingrese su dirección aqui..."
+            />
+            <label for="city">Ciudad: </label>
+            <input type="text" name="city" value="C.A.B.A." />
+            <br /><br />
+            <label for="zipcode">Código Postal:</label>
+            <input
+              type="text"
+              name="zipcode"
+              placeholder="Ingrese su codigo postal aqui..."
+            />
+            <label for="telefono">Telefono: </label>
+            <input
+              type="tel"
+              name="telefono"
+              placeholder="Ingrese su telefono aqui ...."
+            />
+            <br /><br />
+            <label for="BirthDate">Fecha Nac.(mm/dd/yyyy): </label>
+            <input type="date" name="birthdate" />
+            <p class="opciones">
+              Género (Radio)
+              <input type="radio" name="gender" value="hombre" checked />Hombre
+              <input type="radio" name="gender" value="Mujer" />Mujer
+              <input type="radio" name="gender" value="Otro" /> Otro
+            </p>
+          </fieldset>
+          <p class="opciones" id="conocimientos">
+            Conocimientos previos: (checkbox)
+            <input type="checkbox" name="conocimientos" value="HTML" /> HTML
+            <input type="checkbox" name="conocimientos" value="CSS" /> CSS
+            <input type="checkbox" name="conocimientos" value="BOOTSTRAP" />
+            Bootstrap
+            <input type="checkbox" name="conocimientos" value="Javascript" />
+            Javascript
+            <input type="checkbox" name="conocimientos" value="BaseDeDatos" />
+            Base de Datos
+            <input type="checkbox" name="conocimientos" value="Python" /> Python
+            <input type="checkbox" name="conocimientos" value="Django" /> Django
+          </p>
+          <label for="estudios" class="textoLabel">Estudios: (Select)</label>
+          <select id="estudios" name="estudios">
+            <option value="primaria">Primaria</option>
+            <option value="secundaria">Secundaria</option>
+            <option value="terciario">Terciario</option>
+            <option value="universitario">Universitario</option>
+          </select>
+          <br />
+          <label for="comentarios" class="textoLabel">Comentarios:</label>
+          <textarea name="comentarios" rows="5" cols="30"></textarea>
+          <br /><br />
+          <div id="botones">
+          <input type="submit" value="Enviar" class="boton" />
+          <button type="reset" class="boton">Reset</button>
+        </div>
+        </form>
+        <p>
+          Si usted hace click en el boton "Enviar", la informacion sera enviada
+          a la pagina "show_data.html".
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
