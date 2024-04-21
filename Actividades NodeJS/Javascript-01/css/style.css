@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: linear-gradient(to bottom right, #bad3c6, #f9d9ac);
+    background-repeat: no-repeat;   
+    height: 100vh;
+}
+
+h3 {
+    color: #f18886;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2em;
+    margin:1em;
+}
+
+p {
+    color: #7b7066;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 0.5em;
+}
